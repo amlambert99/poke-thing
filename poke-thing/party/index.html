@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pokemon Party Builder</title>
+  <script src="app.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Pokemon Party Builder</h1>
+        <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+        <button id="generateButton">Generate</button>
+        <div id="spriteContainer">
+            <div id="originalSpriteContainer">
+                <img id="originalSprite" src="" alt="Original Sprite">
+                <p>Original</p>
+                <p id="originalType"></p>
+                <p id="originalSecondaryType"></p>
+            </div>
+            <div id="shinySpriteContainer">
+                <img id="shinySprite" src="" alt="Shiny Sprite">
+                <p>Shiny</p>
+                <p id="shinyType"></p>
+                <p id="shinySecondaryType"></p>
+            </div>
+        </div>
+
+        <div id="partyContainer">
+            <button id="addToPartyButton">Add Pokemon</button>
+            <h2>Your Pokemon Party</h2>
+            <ul id="partyList"></ul>
+            <button id="clearPartyButton">Clear Party</button>
+        </div>
+    </div>
+</body>
+</html>

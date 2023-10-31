@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #0056a4;
+}
+
+#spriteContainer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between; /* Display sprites side by side */
+}
+
+#originalSpriteContainer,
+#shinySpriteContainer {
+  width: 48%; /* Adjust the width for spacing */
+  text-align: center;
+}
+
+#originalSprite,
+#shinySprite {
+  max-width: 100%;
+}
+
+#originalType,
+#shinyType,
+#originalSecondaryType,
+#shinySecondaryType {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  text-transform: uppercase;
+}
+
+.type-normal { background-color: #A8A878; }
+.type-fighting { background-color: #C03028; }
+.type-flying { background-color: #A890F0; }
+.type-poison { background-color: #A040A0; }
+.type-ground { background-color: #E0C068; }
+.type-rock { background-color: #B8A038; }
+.type-bug { background-color: #A8B820; }
+.type-ghost { background-color: #705898; }
+.type-steel { background-color: #B8B8D0; }
+.type-fire { background-color: #F08030; }
+.type-water { background-color: #6890F0; }
+.type-grass { background-color: #78C850; }
+.type-electric { background-color: #F8D030; }
+.type-psychic { background-color: #F85888; }
+.type-ice { background-color: #98D8D8; }
+.type-dragon { background-color: #7038F8; }
+.type-dark { background-color: #705848; }
+.type-fairy { background-color: #EE99AC; }
+
+#partyContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#partyList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#partyList li {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+#partyList li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+#clearPartyButton {
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#clearPartyButton:hover {
+  background-color: #a40000;
+}

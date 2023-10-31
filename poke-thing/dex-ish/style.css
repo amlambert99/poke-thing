@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #E95420;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+#pokemonName {
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+#searchButton {
+  padding: 5px 10px;
+  background-color: #E95420;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+#pokemonSprite img {
+  max-width: 150px;
+}
+
+#typeAdvantages {
+  margin-top: 20px;
+}
+
+.type {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  font-weight: bold;
+  display: inline-block;
+}
